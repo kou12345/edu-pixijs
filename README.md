@@ -1,1 +1,1 @@
-"# edu-pixijs" 
+# edu-pixijs
