@@ -225,6 +225,7 @@ function onAssetsLoaded() {
           if (j === r.symbols.length - 1) {
             console.log("Last symbol displayed!");
             count++;
+            // 左のレール
             if (count === 16) {
               console.log("You win!");
               s.texture = slotTextures[1];
@@ -234,6 +235,7 @@ function onAssetsLoaded() {
               );
               s.x = Math.round((SYMBOL_SIZE - s.width) / 2);
             }
+            // 真ん中のレール
             if (count === 17) {
               console.log("You win!");
               s.texture = slotTextures[1];
@@ -243,6 +245,7 @@ function onAssetsLoaded() {
               );
               s.x = Math.round((SYMBOL_SIZE - s.width) / 2);
             }
+            // 右のレール
             if (count === 18) {
               console.log("You win!");
               s.texture = slotTextures[1];
